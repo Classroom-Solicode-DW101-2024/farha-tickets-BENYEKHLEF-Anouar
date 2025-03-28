@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 40px; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.invoice-container {
+    background-color: white;
+    width: 850px; 
+    padding: 60px; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 60px;
+    margin-top: 40px; 
+}
+
+.invoice-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px; 
+
+}
+
+.association-info h1 {
+    font-size: 26px; 
+    font-weight: 700;
+    margin-bottom: 10px; 
+}
+
+.association-info p {
+    font-size: 15px; 
+    color: #333;
+    line-height: 1.6; 
+}
+
+.client-info p {
+    font-size: 15px;
+    color: #333;
+    margin: 8px 0;
+    line-height: 1.6;
+}
+
+.event-info {
+    text-align: center;
+    margin-bottom: 40px; 
+    margin-top: 80px; 
+}
+
+.event-info p {
+    font-size: 17px; 
+    color: #333;
+    margin: 10px 0; 
+    line-height: 1.6;
+}
+
+h2 {
+    text-align: center;
+    font-size: 22px; 
+    font-weight: 700;
+    margin-bottom: 50px; 
+    margin-top: 80px; 
+}
+
+.invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px; 
+}
+
+.invoice-table th, .invoice-table td {
+    padding: 15px; 
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.invoice-table th {
+    font-weight: 700;
+    font-size: 15px; 
+}
+
+.invoice-table td {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.total {
+    text-align: right;
+    margin-top: 40px; 
+}
+
+.total p {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 60px; 
+}
+
+.footer p {
+    font-size: 17px; 
+    font-weight: 700;
+}
+
+/* Download Button */
+.download-btn {
+    margin-top: auto;
+    padding-bottom: 40px; 
+}
+
+.download-btn button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 15px 30px; 
+    border-radius: 6px; 
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px; 
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.download-btn button:hover {
+    background-color: #555;
+    transform: translateY(-2px);
+}
+
+.download-btn button:active {
+    transform: translateY(0);
+}
+
+.download-btn button i {
+    font-size: 18px; 
+}
